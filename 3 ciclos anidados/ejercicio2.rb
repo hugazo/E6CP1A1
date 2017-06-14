@@ -41,4 +41,4 @@ def printTabla(columns, rows)
 end
 
 
-puts printTabla(3, 4)
+puts printTabla(5, 6)
