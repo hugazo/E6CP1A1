@@ -24,3 +24,21 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+def printTabla(columns, rows)
+  num = 0;
+  content = "<table>\n\t<tbody>\n"
+  for i in 1..columns
+    content += "\t\t<tr>\n"
+    for j in 1..rows
+      num += 1
+      content += "\t\t\t<td> #{num} </td>\n"
+    end
+    content += "\t\t</tr>\n"
+  end
+  content += "\t</tbody>\n</table>"
+  return content;
+end
+
+
+puts printTabla(3, 4)

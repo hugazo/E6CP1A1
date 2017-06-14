@@ -4,7 +4,7 @@
 a = ''
 10.times do |i|
 	a += (i + 1).to_s
-	if ( i + 1 ).odd?
+	if (i + 1).odd?
 		a += 'impar '
 	else
 		a += 'par '
