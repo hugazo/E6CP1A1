@@ -8,7 +8,7 @@ while opcion != 0
   puts "Ingrese numero a calcular su tabla de multiplicar (0 para salir)"
   opcion = gets.chomp.to_i
   if opcion != 0
-    10.times { |i| puts "#{opcion} * #{i+1} = #{opcion*(i+1)} " }
+    12.times { |i| puts "#{opcion} * #{i+1} = #{opcion*(i+1)} " }
   else
     puts "Gracias por usar este programa"
   end
